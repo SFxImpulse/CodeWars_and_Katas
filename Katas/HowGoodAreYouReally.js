@@ -1,0 +1,1 @@
+const betterThanAverage = (classScore, yourScore) => yourScore > classScore.reduce((prev, curr) => prev + curr, 0) / classScore.length;
