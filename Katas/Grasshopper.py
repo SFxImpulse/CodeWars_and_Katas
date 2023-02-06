@@ -4,6 +4,6 @@ summation = lambda n: n * (n + 1) / 2
 
 # DRYer solutions (Built-in Functions are more useful):
 
-summation_2 = lambda n: sum(range(1, n+1))
+summation_v2 = lambda n: sum(range(1, n+1))
 
-print(summation(n=10), summation_2(n=10))
+print(summation(n=10), summation_v2(n=10))
