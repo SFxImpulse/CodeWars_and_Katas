@@ -5,5 +5,3 @@ past = lambda h, m, s: (h * 3600000) + (m * 60000) + (s * 1000)
 # DRYer Solution (Try and multiply with as small a number as possible):
 
 past_v2 = lambda h, m, s: ((h * 60 + m) * 60 + s) * 1000
-
-print(past(h=0, m=1, s=1), past_v2(h=0, m=1, s=1))
