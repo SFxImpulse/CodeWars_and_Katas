@@ -1,4 +1,4 @@
-# Given an integer from 1 to 12, return 
+# Given an integer from 1 to 12, return that integer divded by three and rounded up:
 
 import math
 
